@@ -68,7 +68,6 @@ const loginUser = async (req, res) => {
         res.status(500).json({message: "Internal Server error"});
     }
 };
-
 const logoutUser = async (req, res) => {
     try{
         const { email } = req.body;
